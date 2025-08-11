@@ -3,7 +3,6 @@ import { useState, useEffect, use } from "react"
 import { useRouter } from "next/navigation"
 import Image from "next/image"
 import useAuth from "../../../utils/useAuth"
-import { log } from "console"
 
 const DeleteItem = (context) => {
     const [title, setTitle] = useState("")
